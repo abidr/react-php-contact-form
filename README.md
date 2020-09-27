@@ -12,9 +12,19 @@ This is the repo for tutorial in my blog post [Create Contact form with react an
 
 Please clone this repo and in the project root directory, Please run:
 
+`docker-compose up -d`
+
+ "If this command doesn't work, You will need to install docker first "
+
+Frontend will run in localhost:3000
+Api will run in localhost:8080
+
+
+Old way ( If you want to run without docker): 
+
 ### `npm install`
 
-please go to the root fo the project and run npm install to install all the nessery npm modules.
+please go to the /app folder and run npm install to install all the nessery npm modules.
 
 ### `npm start`
 
@@ -87,17 +97,29 @@ and change adminEmail to your email. You will get email to this.
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore -->
-<table><tr><td align="center"><a href="https://craftcode.design/"><img src="https://avatars3.githubusercontent.com/u/4549859?v=4" width="100px;" alt="Malith Priyashan"/><br /><sub><b>Malith Priyashan</b></sub></a><br /><a href="#infra-malithmcr" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/malithmcr/react-php-contact-form/commits?author=malithmcr" title="Tests">⚠️</a> <a href="https://github.com/malithmcr/react-php-contact-form/commits?author=malithmcr" title="Code">💻</a></td></tr></table>
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://craftcode.design/"><img src="https://avatars3.githubusercontent.com/u/4549859?v=4" width="100px;" alt=""/><br /><sub><b>Malith Priyashan</b></sub></a><br /><a href="#infra-malithmcr" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/malithmcr/react-php-contact-form/commits?author=malithmcr" title="Tests">⚠️</a> <a href="https://github.com/malithmcr/react-php-contact-form/commits?author=malithmcr" title="Code">💻</a></td>
+    <td align="center"><a href="http://bretwadleigh.net"><img src="https://avatars3.githubusercontent.com/u/923404?v=4" width="100px;" alt=""/><br /><sub><b>Bret Wadleigh</b></sub></a><br /><a href="#maintenance-bretwadleigh" title="Maintenance">🚧</a></td>
+    <td align="center"><a href="https://hkweb.nl"><img src="https://avatars2.githubusercontent.com/u/639822?v=4" width="100px;" alt=""/><br /><sub><b>Hans Kuijpers</b></sub></a><br /><a href="https://github.com/malithmcr/react-php-contact-form/commits?author=hans2103" title="Code">💻</a></td>
+  </tr>
+</table>
 
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
 
+<br />
 
 <div align="center">
     <a href="https://www.paypal.me/craftcode"><img alt="Header" src="https://cdn-images-1.medium.com/max/806/1*G95uyokAH4JC5Ppvx4LmoQ.png" width="20%"></a>
 </div>
 
+<br />
+<br />
 
-I wrote a full article about this here: https://blog.bitsrc.io/how-to-build-a-contact-form-with-react-js-and-php-d5977c17fec0
+I wrote a full article about this here: https://craftcode.design/contact-form-with-react-and-php/
